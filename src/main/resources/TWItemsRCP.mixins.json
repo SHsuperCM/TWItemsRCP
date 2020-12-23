@@ -1,0 +1,15 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "shcm.shsupercm.mods.twitemsrcp.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "client": [
+    "ResourcePackManagerMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "mixins": [
+    "ChatHudMixin"
+  ]
+}

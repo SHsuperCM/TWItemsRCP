@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "id": "twitemsrcp",
+  "version": "${version}",
+  "name": "TWItemsRCP",
+  "description": "Automatically manages the twisted vanilla resourcepack versioning.",
+  "authors": [
+    "SHsuperCM"
+  ],
+  "contact": {},
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "shcm.shsupercm.mods.twitemsrcp.TWItemsRCPClient"
+    ]
+  },
+  "mixins": [
+    "TWItemsRCP.mixins.json"
+  ],
+  "depends": {
+    "fabric": "*"
+  }
+}
